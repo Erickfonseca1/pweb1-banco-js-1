@@ -9,7 +9,7 @@ contaController.listar();
 
 const contaBonificada = new ContaBonificada('10', 100);
 contaBonificada.creditar(10);
-console.log(contaBonificada.saldo);
+// console.log(contaBonificada.saldo);
 
 const repContas = new RepositorioContas();
 
